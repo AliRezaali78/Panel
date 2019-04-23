@@ -20,9 +20,65 @@
     <title>Admin Panel Theme</title>
   </head>
 
-  <body>
+  <body class="bg-light">
     <!-- Start -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-1">
+      <div class="container">
+        <a href="index.html" class="navbar-brand text-light text-uppercase"
+          >Admin Panel</a
+        >
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active px-1">
+              <a href="dashboard.html" class="nav-link">Dashboard</a>
+            </li>
+            <li class="nav-item px-1">
+              <a href="posts.html" class="nav-link">Posts</a>
+            </li>
+            <li class="nav-item px-1">
+              <a href="categories.html" class="nav-link">Categories</a>
+            </li>
+            <li class="nav-item px-1">
+              <a href="users.html" class="nav-link">Users</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown mr-3">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+              >
+                <i class="fas fa-user"></i> Wellcome Ali
+              </a>
+              <div class="dropdown-menu">
+                <a href="profile.html" class="dropdown-item">
+                  <i class="fas fa-user-circle"></i> Profile
+                </a>
+                <a href="settings.html" class="dropdown-item">
+                  <i class="fas fa-cog"></i> Settings
+                </a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">
+                <i class="fas fa-user-times"></i> Logout
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- Scripts -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
