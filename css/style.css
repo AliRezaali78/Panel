@@ -14,6 +14,31 @@
 }
 
 /* Medias */
+@media screen and (max-width: 425px) {
+  .table-resp {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+@media screen and (max-width: 375px) {
+  .table-resp {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+@media screen and (max-width: 320px) {
+  .table-resp {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .modal-content {
     width: 1000px;
