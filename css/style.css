@@ -2,6 +2,7 @@
   background-color: rgba(0, 0, 0, 0.05);
 }
 
+
 /* Form Inputs */
 #catModal .form-control:focus {
   border-color: rgba(220, 53, 69, 0.25) !important;
@@ -22,6 +23,7 @@
     -webkit-overflow-scrolling: touch;
   }
 }
+
 @media screen and (max-width: 375px) {
   .table-resp {
     display: block;
@@ -30,6 +32,7 @@
     -webkit-overflow-scrolling: touch;
   }
 }
+
 @media screen and (max-width: 320px) {
   .table-resp {
     display: block;
@@ -43,6 +46,7 @@
   .modal-content {
     width: 1000px;
   }
+
   .modal-dialog {
     margin-left: 0px;
     margin-right: 0px;
@@ -53,6 +57,7 @@
   .modal-content {
     width: 1000px;
   }
+
   .modal-dialog {
     margin-left: 400px;
     margin-right: 400px;
@@ -63,6 +68,7 @@
   .modal-content {
     width: 1000px;
   }
+
   .modal-dialog {
     margin: auto;
   }
