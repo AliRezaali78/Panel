@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Admin Panel Theme</title>
+</head>
+
+<body class="bg-light">
+  <!-- Start -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-1">
+    <div class="container">
+      <a href="index.html" class="navbar-brand text-light text-uppercase">Admin Panel</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header id="pageHeader" class="pageHeader bg-info text-light py-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1><i class="fas fa-user"></i> Admin Login</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Add Feature Section -->
+  <section id="add" class="py-4">
+    <div class="container">
+      <div class="row">
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Details -->
+  <section id="datails" class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card">
+            <div class="card-header">
+              <h3>Account Login</h3>
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" type="email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="pass">password</label>
+                <input id="pass" type="password" class="form-control">
+              </div>
+              <a href="index.html" class="btn btn-info btn-block">Login</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Main Footer -->
+  <footer class="main-footer py-4 bg-dark text-light mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="lead text-center mb-0 mt-2">Copyright &copy; <span id="year"></span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.ckeditor.com/4.11.4/standard/ckeditor.js"></script>
+  <script>
+    $("#year").text(new Date().getFullYear());
+
+    CKEDITOR.replace("desc");
+  </script>
+</body>
+
+</html>
