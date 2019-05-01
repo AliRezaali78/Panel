@@ -4,5 +4,5 @@ Admin-Panel-Theme
 -HTML
 -CSS
 
-https://alirezaali78.github.io/Panel/index.html
+https://alirezaali78.github.io/Panel-Theme/
 
